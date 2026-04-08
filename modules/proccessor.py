@@ -64,3 +64,9 @@ def calculate_recovery_score(df):
     return df
 
 # Example logic: a balanced approach to score calculation based on realistic ranges and conditions for Sleep_Hours, Heart_Rate_BPM, and Steps.
+
+def process_data():
+    df = load_data()
+    df = calculate_recovery_score(df)
+    return df
+
