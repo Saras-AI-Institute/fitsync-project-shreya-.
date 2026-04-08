@@ -24,9 +24,9 @@ df = process_data()
 
 # Filter the DataFrame based on the time range selection
 if time_range == "Last 7 days":
-    df = df[df['Date'] >= pd.Timestamp.now() - pd.Timedelta(days=7)]
+    df = df[df['Date'] >= df['Date'].max()- pd.Timedelta(days=7)]
 elif time_range == "Last 30 days":
-    df = df[df['Date'] >= pd.Timestamp.now() - pd.Timedelta(days=30)]
+    df = df[df['Date'] >= df['Date'].max() - pd.Timedelta(days=30)]
 
 # Calculate metrics from the filtered DataFrame
 average_steps = df['Steps'].mean()
