@@ -1,15 +1,40 @@
-# 🌟 FitSync Health Analytics Platform
-Your Personal Health Companion
+# 🩺 FitSync - Your Personal Health Analytics Platform
 
-## Project Overview
-FitSync is a comprehensive three-page personal health analytics dashboard developed to aid individuals in monitoring their health metrics efficiently. Built with Python and Streamlit, this platform seamlessly integrates data processing and visualization, offering a user-friendly interface. With sections dedicated to key performance indicators, detailed trend analyses, and insightful visualizations, FitSync serves as a valuable tool for health data enthusiasts and professionals. Its engaging design, combined with thorough analytics, provides users with a deeper understanding of their personal health data.
-## Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3E4C59?style=for-the-badge&logo=plotly&logoColor=white)
-![GitHub Codespaces](https://img.shields.io/badge/GitHub%20Codespaces-181717?style=for-the-badge&logo=github&logoColor=white)
+Welcome to **FitSync**! Empowering you with actionable insights to optimize your personal health.
 
-## How to Run
-1. Clone the repository:
+---
 
+## 🌟 Project Overview
+
+FitSync is a cutting-edge, AI-enhanced health analytics platform designed to visualize personal health metrics seamlessly. This three-page web application, built with Python and Streamlit, offers a comprehensive suite of visual dashboards that deliver real-time insights into your personal health data. Key features include a dashboard to view KPIs and charts, and a trends page that provides histograms and insightful analytics on historical health patterns. Designed with recruiters in mind, this project exemplifies leveraging modern tech stacks and AI enhancements to drive impactful user experiences.
+
+---
+
+## 📚 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Framework-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-yellowgreen)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet)
+![GitHub Codespaces](https://img.shields.io/badge/GitHub-Codespaces-lightgrey)
+
+---
+
+## ⚡ How to Run
+
+1. Clone the repository using:
+   ```bash
+   git clone https://github.com/your-username/fitsync
+   ```
+2. Open a new Codespace.
+3. In the terminal, run the following command:
+   ```bash
+   streamlit run main.py
+   ```
+
+---
+
+## 🤖 Built with AI
+
+FitSync was built with the assistance of Continue Agent within GitHub Codespaces, streamlining our syntax generation and development workflow. However, it's important to note that all architectural and data logic decisions were owned and crafted by the development team, ensuring a robust and customized health analytics solution.---
+*Built with GitHub Copilot & Cursor @ Saras AI Institute*.
